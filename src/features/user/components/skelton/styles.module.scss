@@ -1,0 +1,13 @@
+.list {
+  display: grid;
+  gap: 12px;
+}
+
+.item {
+  list-style: none;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 156px;
+  height: 50px;
+  background-color: red;
+}
