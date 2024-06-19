@@ -1,8 +1,7 @@
-import { FC } from 'react'
-import { User } from './user'
+import { FC } from "react";
 
 const UserPage: FC = () => {
-  return <User />
-}
+  return <>UserPage</>;
+};
 
-export default UserPage
+export default UserPage;

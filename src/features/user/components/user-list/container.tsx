@@ -1,9 +1,9 @@
-import { FC } from 'react'
-import { Presentation } from './presentation'
-import { useUserListQuery } from '../../api/usecases/query'
+import { FC } from "react";
+import { Presentation } from "./presentation";
+import { useGetUserAllQuery } from "@/features/user/usecases/query";
 
 export const Container: FC = () => {
-  const { data } = useUserListQuery()
+  const { data } = useGetUserAllQuery();
 
-  return <Presentation users={data?.users} />
-}
+  return <Presentation users={data?.users} />;
+};
